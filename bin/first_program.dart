@@ -1,9 +1,7 @@
+import 'MyName.dart';
+
 void main(){
+  var myInfo = new MyName();
 
-  var myCitySet = <String>{'Dhaka','Barishal','dhaka'};
-
-  myCitySet.clear();
-  print(myCitySet);
-
-
+  print(MyName.data);
 }
